@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="muhammed"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-15 10:36:18 AM"/>
+        <attribute name="created" value="bXVoYW1tZWQ7REVMTDsyMDIzLTEyLTE1OzEwOjEyOjU5IEFNOzIzOTg="/>
+        <attribute name="edited" value="bXVoYW1tZWQ7REVMTDsyMDIzLTEyLTE1OzEwOjM2OjE4IEFNOzE7MjUwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3" type="Integer" array="False" size=""/>
+            <declare name="Average" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the 1st number&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Enter the 2nd number&quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;Enter the 3rd number&quot;" newline="True"/>
+            <input variable="num3"/>
+            <assign variable="Average" expression="(num1+num2+num3)/3"/>
+            <output expression="&quot;Average of three numbers:&quot; &amp; average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
